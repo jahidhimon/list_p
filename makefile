@@ -9,5 +9,5 @@ $(TARGET): main.c
 
 .PHONY: clean
 clean:
-	rm *.o *.gch
+	-rm list_p *.o
 
